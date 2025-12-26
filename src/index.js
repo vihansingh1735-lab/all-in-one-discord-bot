@@ -23,15 +23,18 @@ app.get("/", (req, res) => {
     res.send(`<iframe style="margin: 0; padding: 0;" width="100%" height="100%" src="https://uoaio.vercel.app/" frameborder="0" allowfullscreen></iframe>`);
     res.end()
 });
-app.listen(3000, () => console.log(chalk.blue(chalk.bold(`Server`)), (chalk.white(`>>`)), (chalk.green(`Running on`)), (chalk.red(`3000`))))
-require('./bot')
+const PORT = process.env.PORT || 3000;
+
 app.get("/", (req, res) => {
   res.send("Bot is running");
 });
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log("Web server started");
+app.listen(PORT, () => {
+  console.log(`Uptime server running on port ${PORT}`);
 });
+
+// start discord bot
+require("./bot");
 app.listen(PORT, () => {
   console.log(`Uptime server running on port ${PORT}`);
 });
