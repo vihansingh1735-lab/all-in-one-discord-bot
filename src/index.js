@@ -25,12 +25,7 @@ app.get("/", (req, res) => {
 });
 app.listen(3000, () => console.log(chalk.blue(chalk.bold(`Server`)), (chalk.white(`>>`)), (chalk.green(`Running on`)), (chalk.red(`3000`))))
 require('./bot')
-const app = express();
-
-app.get("/", (req, res) => {
-  res.send("Bot is alive 🚀");
-});
-
+app.get("/", (req, res) => {)'"/"("/req,req, res) => {)'a", (r"B
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Uptime server running on port ${PORT}`);
