@@ -25,7 +25,7 @@ if (process.env.WEBHOOK_ID && process.env.WEBHOOK_TOKEN) {
 
 console.clear();
 console.log(chalk.blue.bold("System"), ">>", chalk.green("Starting up..."));
-console.log(chalk.blue.bold("System"), ">>", chalk.red(`Version ${require("./package.json").version}`), "loaded");
+console.log(chalk.blue.bold("System"), ">>", chalk.red(`Version ${require("../package.json").version}`), "loaded");
 
 // ===== EXPRESS (ONLY ONE) =====
 const PORT = process.env.PORT || 3000;
