@@ -21,7 +21,7 @@ module.exports = async (client) => {
             statuttext = [
                 `・❓┆/help`,
                 `・💻┆${client.guilds.cache.size} servers`,
-                `・📨┆discord.gg/uoaio`,
+                `・📨┆https://alpha-contingency-force.netlify.app/discord`,
                 `・🎉┆400+ commands`,
                 `・🏷️┆Version ${require(`${process.cwd()}/package.json`).version}`
             ];
