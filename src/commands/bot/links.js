@@ -17,7 +17,7 @@ module.exports = async (client, interaction, args) => {
                         label: `Invite Bot`,
                         description: `Invite Bot to your server`,
                         emoji: "📨",
-                        value: "invite-linkspanel",
+                        value: "https://discord.com/oauth2/authorize?client_id=1433441832158887977",
                     },
                     {
                         label: `Community Server`,
