@@ -32,7 +32,7 @@ module.exports = async (client, interaction, args) => {
       },
       {
         name: "🔧┆Bot developer",
-        value: `<@!922120042651451423> - @uoaio`,
+        value: `@xyntr1x`,
         inline: true,
       },
       {
@@ -97,7 +97,7 @@ module.exports = async (client, interaction, args) => {
       },
       {
         name: "🔗┆Links",
-        value: `Add me: [[HERE]](${client.config.discord.botInvite}) \nSupport server: [[HERE]](${client.config.discord.serverInvite})`,
+        value: `Add me: [[HERE]](https://discord.com/oauth2/authorize?client_id=1433441832158887977) \n,
         inline: false,
       }],
     type: 'editreply'
