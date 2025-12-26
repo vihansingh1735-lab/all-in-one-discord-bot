@@ -25,7 +25,6 @@ app.get("/", (req, res) => {
 });
 app.listen(3000, () => console.log(chalk.blue(chalk.bold(`Server`)), (chalk.white(`>>`)), (chalk.green(`Running on`)), (chalk.red(`3000`))))
 require('./bot')
-const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
